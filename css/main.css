@@ -1,0 +1,148 @@
+/* Reset all browser styling */
+@import url(reset.css);
+
+* {
+    box-sizing: border-box !important;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+    background: #1e202f;
+    background-image: url("../images/PW_background_V1.jpg");
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    padding-top: 20px;
+}
+
+button {
+    height: 40px;
+    font-size: 20px;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.content-wrapper {
+    /*border: 1px solid green;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header {
+    background: #192c38;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    width: 240px;
+    color: #fff;
+    border: 1px solid red;
+}
+
+.dead {
+    transform: rotate(90deg);
+}
+
+.dead-message {
+    display: none;
+    font-size: 20px;
+    color: #952b2b;
+    margin: 10px;
+}
+
+.monster {
+    padding: 0 20px;
+    text-align: center;
+    /*border: 1px solid red;*/
+}
+
+.monster .image {
+    /*background: url("../images/venuzard.png"), url("../images/monster_bg.png");*/
+    background: url("../images/PW_asadhorse.jpg"), url("../images/monster_bg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    /*border: 1px solid yellow;*/
+}
+
+.user .image {
+    /*background: url("../images/dragomander.png"), url("../images/monster_bg.png");*/
+    background: url("../images/PW_amadferret.jpg"), url("../images/monster_bg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.monster .info div,
+.user .info div {
+    margin-bottom: 20px;
+}
+
+.info {
+    /*background: greenyellow*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+}
+.image {
+    /*background: aquamarine*/
+}
+.action {
+    /*background: darksalmon;*/
+    height: 60px;
+}
+
+.vs-image {
+    position: absolute;
+    top: 460px;
+}
+
+.xp {
+    background-color: orange;
+}
